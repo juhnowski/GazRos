@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Грузоперевозки</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <h1 id="caption">Грузоперевозки</h1>
+
+<div class="row">
+  	<div class="col-sm-12 col-md-12">
+            <a data-toggle="modal" href="#regModal" class="btn btn-default">Регионы</a>
+<!-- Регионы -->
+<div class="modal fade" id="regModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<form action="http://phreebie.net:8080" method="post">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Регионы</h4>
+        <h5>Регионы предоставляемых услуг</h5>
+      </div>
+      <div class="modal-body">
+          <h4 class="text-center">Список городов:</h4>
+             <table class="table table-striped">
+                <tr>
+                    <td>
+                        <h5>Нижний Новгород</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1200 руб.</h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Ардатов</h5>
+                    </td>
+                    <td>
+                    	<h6>от 2000 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Арзамас</h5>
+                    </td>
+                    <td>
+                    	<h6>от 2000 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Арья</h5>
+                    </td>
+                    <td>
+                    	<h6>от 2000 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Балахна</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1600 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Ближне-Песочное</h5>
+                    </td>
+                    <td>
+                    	<h6>от 2000 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Богородск</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1600 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Большое Козино</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1400 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Большое Мурашкино</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                
+                <tr>
+                    <td>
+                        <h5>Бор</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1400 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Бутурлино</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                
+                <tr>
+                    <td>
+                        <h5>Варнавино</h5>
+                    </td>
+                    <td>
+                    	<h6>от 2000 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Васильсурск</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                  
+                <tr>
+                    <td>
+                        <h5>Вахтан</h5>
+                    </td>
+                    <td>
+                    	<h6>от 2000 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Вача</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1600 руб.</h6>
+                    </td>            
+                </tr>            
+                <tr>
+                    <td>
+                        <h5>Велетьма</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>               
+                <tr>
+                    <td>
+                        <h5>Ветлуга</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>      
+                <tr>
+                    <td>
+                        <h5>Ветлужский</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                
+                <tr>
+                    <td>
+                        <h5>Виля</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Вознесенское</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                
+                <tr>
+                    <td>
+                        <h5>Володарск</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                
+                <tr>
+                    <td>
+                        <h5>Воротынец</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                
+                <tr>
+                    <td>
+                        <h5>Ворсма</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Воскресенское</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                
+                <tr>
+                    <td>
+                        <h5>Выездное</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Выкса</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>            
+                <tr>
+                    <td>
+                        <h5>Гавриловка</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                    
+                <tr>
+                    <td>
+                        <h5>Гидроторф</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Горбатов</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Горбатовка</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Городец</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                
+                <tr>
+                    <td>
+                        <h5>Гремячево</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Дальнее Константиново</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Дзержинск</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1600 руб.</h6>
+                    </td>                    
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Досчатое</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>               
+                <tr>
+                    <td>
+                        <h5>Желнино</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>              
+                <tr>
+                    <td>
+                        <h5>Заволжье</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>               
+                <tr>
+                    <td>
+                        <h5>Зеленый Город</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                    
+                <tr>
+                    <td>
+                        <h5>Ильиногорск</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                
+                <tr>
+                    <td>
+                        <h5>Катунки</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>              
+                <tr>
+                    <td>
+                        <h5>Княгинино</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                
+                <tr>
+                    <td>
+                        <h5>Ковернино</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                
+                <tr>
+                    <td>
+                        <h5>Красная Горка</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                  
+                <tr>
+                    <td>
+                        <h5>Красные Баки</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                
+                <tr>
+                    <td>
+                        <h5>Кстово</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1400 руб.</h6>
+                    </td>            
+                </tr>             
+                <tr>
+                    <td>
+                        <h5>Кулебаки</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>            
+                <tr>
+                    <td>
+                        <h5>Лесогорск</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                
+                <tr>
+                    <td>
+                        <h5>Лукино</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>             
+                <tr>
+                    <td>
+                        <h5>Лукоянов</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>               
+                <tr>
+                    <td>
+                        <h5>Лысково</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>              
+                <tr>
+                    <td>
+                        <h5>Малое Козино</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                   
+                <tr>
+                    <td>
+                        <h5>Мухтолово</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                
+                <tr>
+                    <td>
+                        <h5>Навашино</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>               
+                <tr>
+                    <td>
+                        <h5>Павлово</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>              
+                <tr>
+                    <td>
+                        <h5>Первое Мая</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                 
+                <tr>
+                    <td>
+                        <h5>Первомайск</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                 
+                <tr>
+                    <td>
+                        <h5>Первомайский</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                   
+                <tr>
+                    <td>
+                        <h5>Перевоз</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>        
+                <tr>
+                    <td>
+                        <h5>Пижма</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>            
+                <tr>
+                    <td>
+                        <h5>Пильна</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>            
+                <tr>
+                    <td>
+                        <h5>имени Калинина</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                     
+                <tr>
+                    <td>
+                        <h5>имени Степана Разина</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                   
+                <tr>
+                    <td>
+                        <h5>Решетиха</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>               
+                <tr>
+                    <td>
+                        <h5>Саров</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>            
+                <tr>
+                    <td>
+                        <h5>Сатис</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>            
+                <tr>
+                    <td>
+                        <h5>Семёнов</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>           
+                <tr>
+                    <td>
+                        <h5>Сергач</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>             
+                <tr>
+                    <td>
+                        <h5>Смолино</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>              
+                <tr>
+                    <td>
+                        <h5>Сокольское</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                 
+                <tr>
+                    <td>
+                        <h5>Сосновское</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                 
+                <tr>
+                    <td>
+                        <h5>Сухобезводное</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                    
+                <tr>
+                    <td>
+                        <h5>Сява</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>           
+                <tr>
+                    <td>
+                        <h5>Тёша</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>           
+                <tr>
+                    <td>
+                        <h5>Тонкино</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>              
+                <tr>
+                    <td>
+                        <h5>Тоншаево</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>               
+                <tr>
+                    <td>
+                        <h5>Тумботино</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                
+                <tr>
+                    <td>
+                        <h5>Урень</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>          
+                <tr>
+                    <td>
+                        <h5>Фролищи</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>              
+                <tr>
+                    <td>
+                        <h5>Центральный</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>  
+                <tr>
+                    <td>
+                        <h5>Чистое</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Чкаловск</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>               
+                <tr>
+                    <td>
+                        <h5>Шайгино</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>              
+                <tr>
+                    <td>
+                        <h5>Шаранга</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>              
+                <tr>
+                    <td>
+                        <h5>Шатки</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>            
+                <tr>
+                    <td>
+                        <h5>Шахунья</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>              
+                <tr>
+                    <td>
+                        <h5>Шиморское</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>                
+                <tr>
+                    <td>
+                        <h5>Юганец</h5>
+                    </td>
+                    <td>
+                    	<h6>от 1800 руб.</h6>
+                    </td>            
+                </tr>           
+            </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+        </form>  
+</div><!-- /.modal -->
+<!-- конец Регионы -->
+            <a data-toggle="modal" href="#autoModal" class="btn btn-default">Авто</a> 
+<!-- Автопарк -->
+			<div class="modal fade" id="autoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<form action="http://phreebie.net:8080" method="post">
+				    <div class="modal-dialog">
+						<div class="modal-content">
+				      	<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        					<h4 class="modal-title">Автопарк</h4>
+        				</div>
+      					<div class="modal-body">
+          					<h4 class="text-center">Автомобили компании:</h4>
+             					<table class="table table-striped">
+                					<tr>
+                    					<td>
+                        					<h5>Удлиненный "Фермер"</h5>
+                        					<p>Еврофургон "Фермер" имеет удлиненный кузов для перевозки крупногабаритных грузов и вместительную кабину на 6 мест.</p>
+                    					</td>
+                    					<td>
+                							<img src="images/gazel_euro_small.jpg" alt=""/>
+                    					</td>
+                					</tr>
+                					<tr>
+                    					<td>
+                        					<h5>Бортовой автомобиль</h5>
+                        					<p>Автомобиль подходит для промышленных грузов, грузов в упаковке.</p>
+                    					</td>
+                    					<td>
+                        					<img src="images/gazel_bort_small.jpg" alt=""/>
+                    					</td>
+                					</tr>
+                					<tr>
+                    					<td>
+                        					<h5>Стандартный тент</h5>
+                        					<p>Идеально подходит для малогабаритных перевозок и дачных переездов.</p>
+                    					</td>
+                    					<td>
+                        					<img src="images/gazel_euro_small.jpg" alt=""/>
+                    					</td>
+                					</tr>
+                					<tr>
+                    					<td>
+                        					<h5>Промтоварный фургон</h5>
+                        					<p>Наиболее востребованный фургон <strong>для квартирных переездов</strong>.</p>
+                    					</td>
+                    					<td>
+                        					<img src="images/gazel_prompt_bort.jpg" alt=""/>
+                    					</td>
+                					</tr>
+                					<tr>
+                    					<td>
+                        					<h5>Еврофургон</h5>
+                        					<p>Удлиненный кузов подходит <strong>для перевозки крупногабаритных грузов</strong>.</p>
+                    					</td>
+                    					<td>
+                        					<img src="images/gazel_euro_small.jpg" alt=""/>
+                    					</td>
+                					</tr>
+                					<tr>
+                    					<td>
+                        					<h5>Изотермический фургон</h5>
+                        					<p>Поддерживает постоянную температуру.</p>
+                    					</td>
+                    					<td>
+                        					<img src="images/gazel_izoterm_small.jpg" alt=""/>
+                    					</td>
+                					</tr>
+                					<tr>
+                    					<td>
+                        					<h5>Фургон-"сэндвич"</h5>
+                        					<p>Обладает повышенной герметичностью по сравнению с обычным изотермическим автофургоном.</p>
+                    					</td>
+                    					<td>
+                        					<img src="images/gazel_sandvich_small.jpg" alt=""/>
+                    					</td>
+                					</tr>
+                					<tr>
+                    					<td>
+                        					<h5>Рефрижератор</h5>
+                        					<p>Используется для перевозки охлажденных или замороженных продуктов, а также медицинских препаратов, нуждающихся в стабильной температуре. Идеально подходит <strong>для переезда аптек</strong>.</p>
+                    					</td>
+                    					<td>
+                        					<img src="images/gazel_refr_small.jpg" alt=""/>
+                    					</td>
+                					</tr>
+                					<tr>
+                    					<td>
+                        					<h5>Почтовый фургон</h5>
+                        					<p>Фургон для перевозки целлюлозно-бумажной и печатной продукции. Не поддерживает температурный режим, но удовлетворяет самым высоким требованиям к герметичности груза и его гидроизоляции. Идеальный вариант <strong>для офисных переездов</strong></p>
+                    					</td>
+                    					<td>
+                        					<img src="images/gazel_pochta_small.jpg" alt=""/>
+                    					</td>
+                					</tr>                
+             					</table>
+      					</div>
+      					<div class="modal-footer">
+        					<button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
+				      	</div>
+    				</div><!-- /.modal-content -->
+  			</div><!-- /.modal-dialog -->
+  				</form>          
+			</div><!-- /.modal -->
+<!-- конец Автопарк -->    
+            <a data-toggle="modal" href="#contactsModal" class="btn btn-primary">Контакты</a>
+<!-- Контакты  -->
+<div class="modal fade" id="contactsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<form action="http://phreebie.net:4001" method="post">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Контакты</h4>
+      </div>
+      <div class="modal-body">
+          <h4 class="text-center">Часы работы</h4>
+             <table class="table table-striped">
+                <tr>
+                    <td>
+                        <h5>понедельник-пятница</h5>
+                    </td>
+                    <td>
+                        <p>8:00-22:00</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>суббота-воскресенье</h5>
+                    </td>
+                    <td>
+                        <p>9:00-18:00</p>
+                    </td>
+                </tr>
+            </table>
+        <h4>Телефоны:</h4>
+                     <table class="table table-striped">
+                <tr>
+                    <td>
+                        <h5>сотовый</h5>
+                    </td>
+                    <td>
+                        <p>+7-908-154-20-43</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>городской</h5>
+                    </td>
+                    <td>
+                        <p>(831)419-16-89</p>
+                    </td>
+                </tr>
+            </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+        </form>  
+</div><!-- /.modal -->
+<!-- конец Контакты -->    
+            <a data-toggle="modal" href="#collabModal" class="btn btn-default">Работа</a>
+<!-- Работа -->
+<div class="modal fade" id="collabModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<form action="http://phreebie.net:4001/send" method="post">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Сотрудничество</h4>
+        <h5>Мы можем предложить вам работу водителя, грузчика.</h5>
+      </div>
+      <div class="modal-body">
+          <h4 class="text-center">Оформите заявление для трудоустройства:</h4>
+             <table class="table table-striped">
+                <tr>
+                    <td>
+                        <h5>Как с Вами связаться</h5>
+                    </td>
+                    <td>
+                    	<tr>
+                    		<td>
+                    			<p>Email:</p>
+                    		</td>
+                    		<td>
+                        		<input type="text" name="job_email_contacts">
+                        	</td>
+                        </tr>
+                        <tr>
+                        	<td>
+                        		<p>Тел.:</p>
+                        	</td>
+                    		<td>
+                        		<input type="text" name="job_phone_contacts">
+                        	</td>                        	
+                        </tr>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Желаемая оплата и условия труда</h5>
+                    </td>
+                    <td>
+                        <input type="text" name="job_description">
+                    </td>
+                </tr>
+            </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Отменить</button>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+        </form>  
+</div><!-- /.modal -->
+<!-- конец Работа -->    
+  	
+	</div>    
+
+  <div class="col-sm-12 col-md-12">
+    <div class="thumbnail">
+      <img src="images/about.jpg" alt="О Компании" width="100%">
+      <div class="caption">
+        <h3>О Компании</h3>
+        <p>Компания занимается грузоперевозками с 1999 года. Автопарк представлен газелями различных модификаций. Персонал компании составляют водители, грузчики и логисты. Наши цены средние по рынку услуг, а в качестве предоставляемых услуг Вы сможете убедиться сами!</p>
+      </div>
+    </div>
+</div>
+
+<div class="col-sm-12 col-md-12">
+            <a data-toggle="modal" href="#pretModal" class="btn btn-default">Претензия</a>
+<!-- Оформить претензию -->
+<div class="modal fade" id="pretModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<form action="http://phreebie.net:4002/send" method="post">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Претензия</h4>
+        <h5>Вы также можете сообщить о проблеме по телефону: +79081542043 Александр</h5>
+      </div>
+      <div class="modal-body">
+          <h4 class="text-center">Оформите претезию по заказу</h4>
+             <table class="table table-striped">
+                <tr>
+                    <td>
+                        <h5>Как с Вами связаться</h5>
+                    </td>
+                    <td>
+                    	<tr>
+                    		<td>
+                    			<p>Email:</p>
+                    		</td>
+                    		<td>
+                        		<input type="text" name="pret_email_contacts">
+                        	</td>
+                        </tr>
+                        <tr>
+                        	<td>
+                        		<p>Тел.:</p>
+                        	</td>
+                    		<td>
+                        		<input type="text" name="pret_phone_contacts">
+                        	</td>                        	
+                        </tr>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Суть проблемы</h5>
+                    </td>
+                    <td>
+                        <input type="text" name="pret_description">
+                    </td>
+                </tr>
+            </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Отменить</button>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+        </form>  
+</div><!-- /.modal -->
+
+<!-- конец Оформить претензию -->    
+            
+            <a href="https://plus.google.com/102325413378639646784/posts" class="btn btn-primary">Отзывы</a>
+</div>
+
+<div class="col-sm-12 col-md-12">
+    <div class="thumbnail">
+        <img src="images/logo.jpg" alt="Служба качества" width="100%">
+      <div class="caption">
+        <h3>Служба качества</h3>
+        <p>Вы можете отправить нам свой отзыв о качестве предоставленных услуг.</p>
+      </div>
+    </div>
+  </div>
+      
+  <div class="col-sm-12 col-md-6">
+    <div class="thumbnail">
+      <img src="images/order.png" alt="Заказы">
+      <div class="caption">
+        <h3>Заказ</h3>
+    <p>Для получения услуг транспортно-экспедиционной компании Вам необходимо заполнить заявку на оказание услуги грузоперевозки компанией.<b>Пожалуйста не забывайте указывать свои контакты.</b></p>  
+    <a data-toggle="modal" href="#calcModal" class="btn btn-primary">Калькулятор</a>
+    <a data-toggle="modal" href="#myModal" class="btn btn-default">Заказ</a>
+    
+    
+    
+    
+<!-- Оформить заказ -->
+<div class="modal fade" id="calcModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<form action="http://phreebie.net:4003/calc" method="post">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Калькулятор</h4>
+      </div>
+      <div class="modal-body">
+          <h4 class="text-center">Введите ориентировочные данные по заказу</h4>
+             <table class="table table-striped">
+                <tr>
+                    <td>
+                        <h5>Приблизительное расстояние, км.</h5>
+                    </td>
+                    <td>
+                        <input type="text" name="calc_path">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>2.Условия перевозки</h5>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+            <table class="table table-striped">
+                <tr>
+                    <td><h5>2.3</h5></td>
+                    <td><h5>Тип груза</h5></td>
+                    <td><input type="text" name="calc_item_type"></td>
+                </tr>     
+                <tr>
+                    <td><h6>2.3.1</h6></td>
+                    <td><h6>Вес груза, кг.</h6></td>
+                    <td><input type="text" name="calc_item_w"></td>   
+                </tr>
+                <tr>
+                    <td><h6>2.3.2</h6></td>
+                    <td><h6>Объем груза</h6></td>
+                    <td><input type="text" name="calc_item_v"></td>
+                </tr>                    
+                <tr>
+                    <td><h6>2.3.3</h6></td>
+                    <td><h6>Темп.режим</h6></td>
+                    <td><input type="text" name="calc_item_t"></td>                    
+                </tr>       
+                <tr>                
+                    <td><h6>2.3.4</h6></td>
+                    <td><h6>Способ погрузки</h6></td>
+                    <td><input type="text" name="calc_item_s"></td>
+                </tr>
+                <tr>
+                    <td><h5>2.4</h5></td>
+                    <td><h5>Желаемый тип машины</h5></td>
+                    <td><input type="text" name="calc_car"></td>
+                </tr>
+                <tr>
+                    <td><h5>2.5</h5></td>
+                    <td><h5>Желаемая стоимость(руб.)</h5></td>
+                    <td><input type="text" name="calc_cost"></td>
+                </tr>                
+                <tr>
+                    <td><h5>2.6</h5></td>
+                    <td><h5>Примечание</h5></td>
+                    <td><input type="text" name="calc_description"></td>
+                </tr>                        
+                <tr>
+                    <td><h5>3.</h5></td>
+                    <td><h5>Контакты</h5></td>
+                </tr>
+                <tr>
+                    <td><h5>3.1</h5></td>
+                    <td><h5>Email</h5></td>
+                    <td><input type="text" name="calc_email"></td>                    
+                </tr>
+                <tr>
+                    <td><h5>3.2</h5></td>
+                    <td><h5>Тел.:</h5></td>
+                    <td><input type="text" name="calc_phone"></td>                    
+                </tr>                
+            </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Отменить</button>
+        <button type="submit" class="btn btn-primary">К оформлению</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+        </form>  
+</div><!-- /.modal -->
+    
+    
+    
+    
+<!-- Оформить заказ -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<form action="http://phreebie.net:4003/zakaz" method="post">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Заявка на грузоперевозку</h4>
+      </div>
+      <div class="modal-body">
+          <h4 class="text-center">Договор-Заявка № <span id="order_num">____</span> от <span id="order_date">__.__.____</span><br> на оказание комплекса услуг по грузоперевозке</h4>
+            <p>ГРУЗОПЕРЕВОЗЧИК "Группа Компаний "ГазРос" в лице Белова А.В.</p>
+            <p>КЛИЕНТ <input type="text" name="client"> в лице <input type="text" name="client_name"></p>
+            <table class="table table-striped">
+                <tr>
+                    <td>
+                        <h5>1.Маршрут следования</h5>
+                    </td>
+                    <td>
+                        <input type="text" name="path">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>2.Условия перевозки</h5>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+            <table class="table table-striped">
+                <tr>
+                    <td><h5>2.1</h5></td>
+                    <td><h5>Адрес погрузки</h5></td>
+                    <td><input type="text" name="from_address"></td>
+                </tr>
+                <tr>
+                    <td><h6>2.1.1</h6></td>
+                    <td><h6>Дата и время</h6></td>
+                    <td><input type="text" name="from_date_time"></td>
+                </tr>
+                <tr>
+                    <td><h6>2.1.2</h6></td>
+                    <td><h6>Имя контактного лица</h6></td>
+                    <td><input type="text" name="from_name"></td>
+                </tr>
+                <tr>
+                    <td><h6>2.1.3</h6></td>
+                    <td><h6>Тел. контактного лица</h6></td>
+                    <td><input type="text" name="from_phone"></td>
+                </tr>
+                <tr>
+                    <td><h5>2.2</h5></td>
+                    <td><h5>Адрес доставки</h5></td>
+                    <td><input type="text" name="to_address"></td>
+                </tr>
+                <tr>
+                    <td><h6>2.2.1</h6></td>
+                    <td><h6>Дата и время</h6></td>
+                    <td><input type="text" name="to_date_time"></td>
+                </tr>
+                <tr>
+                    <td><h6>2.2.2</h6></td>
+                    <td><h6>Имя контактного лица</h6></td>
+                    <td><input type="text" name="to_name"></td>
+                </tr>
+                <tr>
+                    <td><h6>2.2.3</h6></td>
+                    <td><h6>Тел. контактного лица</h6></td>
+                    <td><input type="text" name="to_phone"></td>
+                </tr>
+                <tr>
+                    <td><h5>2.3</h5></td>
+                    <td><h5>Наименование груза</h5></td>
+                    <td><input type="text" name="item_name"></td>
+                </tr>     
+                <tr>
+                    <td><h6>2.3.1</h6></td>
+                    <td><h6>Вес груза, кг</h6></td>
+                    <td><input type="text" name="item_w"></td>   
+                </tr>
+                <tr>
+                    <td><h6>2.3.2</h6></td>
+                    <td><h6>Объем груза</h6></td>
+                    <td><input type="text" name="item_v"></td>
+                </tr>                    
+                <tr>
+                    <td><h6>2.3.3</h6></td>
+                    <td><h6>Темп.режим</h6></td>
+                    <td><input type="text" name="item_t"></td>                    
+                </tr>       
+                <tr>                
+                    <td><h6>2.3.4</h6></td>
+                    <td><h6>Способ погрузки</h6></td>
+                    <td><input type="text" name="item_s"></td>
+                </tr>
+                <tr>
+                    <td><h5>2.4</h5></td>
+                    <td><h5>Желаемый тип машины</h5></td>
+                    <td><input type="text" name="car"></td>
+                </tr>
+                <tr>
+                    <td><h5>2.5</h5></td>
+                    <td><h5>Стоимость(руб.)</h5></td>
+                    <td><input type="text" name="cost"></td>
+                </tr>                
+                <tr>
+                    <td><h5>2.6</h5></td>
+                    <td><h5>Примечание</h5></td>
+                    <td><input type="text" name="description"></td>
+                </tr>                                
+                <tr>
+                    <td><h5>2.7</h5></td>
+                    <td><h5>Email:</h5></td>
+                    <td><input type="text" name="zakaz_email"></td>
+                </tr>                                
+            </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Отменить</button>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+        </form>  
+</div><!-- /.modal -->
+
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12 col-md-6">
+    <div class="thumbnail">
+      <img src="images/h24.jpg" alt="Система  GazRos">
+      <div class="caption">
+        <h3>Вход</h3>
+        <table width="100%">
+        <tr>
+        <td>
+        	<p>На время тестирования мы предоставляем доступ в логистическую систему GazRos</p>
+        </td>
+<!--
+<form id="loginModal" class="form-horizontal" role="form">
+
+  <div class="form-group">
+    <label for="inputEmail1" class="col-lg-2 control-label">Email</label>
+    <div class="col-lg-10">
+      <input type="email" class="form-control" id="inputEmail1" placeholder="username@email.com">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword1" class="col-lg-2 control-label">Пароль</label>
+    <div class="col-lg-10">
+      <input type="password" class="form-control" id="inputPassword1" placeholder="Пароль">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-lg-offset-2 col-lg-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Запомнить меня
+        </label>
+      </div>
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <div class="col-lg-offset-2 col-lg-10">
+    <p><a href="http://www.gruzvezet52.ru:4000" class="btn btn-default">Вход</a>    
+    </div>
+  </div>
+</form>
+!-->      
+		<td>
+			<p><a href="http://gazrosadmin-gazros.nodejitsu.com/gazros.html" class="btn btn-default">Вход</a>
+		</td>
+		<td>
+        	<p><a href="http://www.gazros.com/" class="btn btn-primary">О системе GazRos</a> </p>
+        </td>
+    </tr>
+    </table>        
+      </div>
+    </div>
+  </div>    
+</div>    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "realtime-todos",
+  "version": "0.0.1-17",
+  "dependencies": {
+    "feathers": "*",
+    "mongoose": "*",
+    "nodemailer": "0.6.x"
+  },
+  "subdomain": "gazrosadmin-GazRos",
+  "domains": [
+    "грузоперевозки52.рф",
+    "переезднн.рф"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
